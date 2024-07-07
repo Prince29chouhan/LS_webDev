@@ -1,0 +1,157 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #000;
+    color: #fff;
+    background-image: url('https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i63vXXwMFIoc/v2/-1x-1.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header {
+    background: rgba(0, 0, 0, 0.9);
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+    position: -webkit-sticky; /* For Safari */
+    position: sticky;
+    top: 0;
+
+    z-index: 1000;
+  
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 1rem;
+}
+
+header h1 {
+    font-size: 2rem;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    transition: background 0.3s ease;
+}
+
+nav a:hover {
+    background: #444;
+}
+
+#main-banner {
+    color: #fff;
+    text-align: center;
+    padding: 3rem 1rem;
+}
+
+#main-banner h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+#main-banner p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+#main-banner button {
+    background: #e50914;
+    color: #fff;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+#main-banner button:hover {
+    background: #b20710;
+}
+
+.content-section {
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 5px;
+    margin-bottom: 3rem;
+}
+
+.highlights-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1rem;
+}
+
+.highlight {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 1rem;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.highlight img {
+    max-width: 100%;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background: rgba(0, 0, 0, 0.9);
+    color: #fff;
+}
+
+footer a {
+    color: #e50914;
+    text-decoration: none;
+    margin: 0 0.5rem;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header .container {
+        flex-direction: column;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+
+.answers{
+    margin-bottom: 30px;
+}
+
+button{
+    padding: 5px 10px 5px 10px;
+    background-color: rgb(0, 169, 8);
+
+}
