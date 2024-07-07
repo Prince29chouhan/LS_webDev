@@ -1,4 +1,4 @@
-/* Basic Reset */
+
 * {
     margin: 0;
     padding: 0;
@@ -20,7 +20,7 @@ header {
     color: #fff;
     padding: 1rem 0;
     text-align: center;
-    position: -webkit-sticky; /* For Safari */
+    position: -webkit-sticky; 
     position: sticky;
     top: 0;
 
